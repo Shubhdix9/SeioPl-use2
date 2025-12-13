@@ -1,6 +1,4 @@
-Flask==2.3.2
-gunicorn
-ultralytics==8.0.196
-opencv-python-headless
-numpy==1.26.4
-gdown
+Flask==2.3.4                 # Web framework
+ultralytics==8.0.196         # YOLOv8 (for object detection)
+torch==2.1.0+cpu             # CPU-only PyTorch (lighter than full CUDA version)
+opencv-python-headless==4.8.1.78  # Lightweight OpenCV for image processing
