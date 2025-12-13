@@ -1,0 +1,8 @@
+body {
+    /* If bg.png is in the SAME folder as style.css, use only the filename. */
+    background-image: url('bg.png');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* ... other CSS properties ... */
+}
