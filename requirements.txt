@@ -1,7 +1,6 @@
 flask==2.3.3
-gunicorn==21.2.0
-ultralytics==8.3.0
-opencv-python
+gunicorn
+ultralytics
+opencv-python-headless
 gdown
-torch
 numpy
